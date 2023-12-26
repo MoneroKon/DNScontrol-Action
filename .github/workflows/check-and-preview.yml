@@ -5,7 +5,7 @@ on:
     types:
       - opened
     branches:
-      - 'Dns-Update'
+      - 'DnsUpdate'
     paths:
       - 'dnsconfig.js'
 
