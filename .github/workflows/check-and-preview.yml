@@ -1,6 +1,13 @@
 name: Check and Preview DNS changes
 
-on: pull_request
+on:
+  pull_request:
+    types:
+      - opened
+    branches:
+      - 'Dns-Update'
+    paths:
+      - 'dnsconfig.js'
 
 jobs:
   check:
